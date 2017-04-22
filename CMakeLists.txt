@@ -4,6 +4,11 @@ project(Algorithm)
 set(CMAKE_CXX_STANDARD 11)
 
 #set(SOURCE_FILES dp/dp.cpp)
-set(SOURCE_FILES mergeSort/MergeSort.cpp)
+#set(SOURCE_FILES mergeSort/MergeSort.cpp )
+#set(SOURCE_FILES quickSort/QuickSort.cpp)
+#set(SOURCE_FILES main.cpp )
+set(SOURCE_FILES backTrack/queen.cpp unsortBinSearch/unsortBinSerch.cpp)
+
+
 
 add_executable(Algorithm ${SOURCE_FILES})
